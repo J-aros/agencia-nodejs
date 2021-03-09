@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido 
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tortor et sapien euismod sagittis. Mauris egestas, urna vitae commodo sollicitudin, tortor purus dictum felis, ac dictum arcu velit vel lectus. Nunc eget felis turpis. Duis interdum ligula eu turpis pellentesque efficitur. Sed dapibus luctus porttitor. 
+
+                p Donec mauris, ultrices at metus non, dapibus congue lorem. Proin blandit diam leo, a mollis elit pellentesque vitae. Sed sit amet auctor tortor, vitae feugiat erat. Suspendisse pulvinar tellus erat, et accumsan odio dapibus sed. Aenean at facilisis nisl. Sed et commodo elit. Nulla facilisi. hendrerit, dui neque laoreet risus, eget pharetra erat magna sodales arcu. Cras at ultrices sapien, eget feugiat nisi. Nullam rutrum pretium tincidunt. Aliquam magna sem, luctus id erat id, dignissim consequat purus. Mauris quis fermentum arcu.
+
+                p Vivamus non suscipit massa, porta laoreet eros. Sed quis lorem tempor, porta neque ac, feugiat diam. Proin placerat placerat sem, eget tincidunt ipsum auctor quis. Suspendisse vitae sagittis quam. Donec vitae lorem eget purus sodales lacinia id at arcu.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Aliquam magna sem, luctus id erat id, dignissim consequat purus. Mauris quis fermentum arcu.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos 
+                    p Aliquam magna sem, luctus id erat id, dignissim consequat purus. Mauris quis fermentum arcu.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios 
+                    p Aliquam magna sem, luctus id erat id, dignissim consequat purus. Mauris quis fermentum arcu.
